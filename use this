@@ -1,0 +1,10 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FLYNCYNICAL/aim/main/k.lua"))()
+getgenv().OldAimPart = "UpperTorso"
+getgenv().AimPart = "UpperTorso" -- For R15 Games: {UpperTorso, LowerTorso, HumanoidRootPart, Head} | For R6 Games: {Head, Torso, HumanoidRootPart}  
+getgenv().AimlockKey = "v"
+getgenv().AimRadius = 30 -- How far away from someones character you want to lock on at
+getgenv().PredictMovement = true -- Predicts if they are moving in fast velocity (like jumping) so the aimbot will go a bit faster to match their speed 
+getgenv().PredictionVelocity = 6.612
+getgenv().CheckIfJumped = true
+getgenv().Smoothness = true
+getgenv().SmoothnessAmount = 0.1865 -- this basically yo set nigga
